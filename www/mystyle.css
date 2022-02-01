@@ -1,0 +1,107 @@
+#navbar-top {
+	background-color: #182859 !important;
+	font-family: 'Chakra Petch', sans-serif;
+	color: white;
+	font-size:18px;
+
+}
+
+#navbar-top a {
+	font-family: 'Chakra Petch', sans-serif;
+	color: #F2CF1D;
+	font-size:18px;
+}
+
+#navbar-top .dropdown-menu {
+	font-family: 'Chakra Petch', sans-serif;
+	background-color: #182859 !important;
+	font-size:18px; 
+}
+
+#navbar-bottom {
+	font-family: 'Chakra Petch', sans-serif;
+	background-color:#F2CF1D ;
+	color: #0D1440;
+	font-size:18px; 
+}
+
+#details {
+	background-color: #6CA6D9;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#link1 {
+	text-align: center;
+	color:#F2CF1D;
+	font-size: 18;
+}
+
+#rev{
+	background-color: #0D1440;
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+}
+
+#snack_table{
+	
+	font-family: 'Nunito Sans', sans-serif;
+	color: #182859;
+}
+
+#review_container{
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+	background-color: #6CA6D9
+}
+
+#rev_modal_body{
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+	background-color: #6CA6D9
+}
+
+#card_header{
+	background-color: #6CA6D9
+}
+
+#card_footer{
+	background-color: #6CA6D9
+}
+
+.h1 {
+	color: #ffffff;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.container {
+
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+	 
+}
+
+.body {
+	background-color: #182859 !important;
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+	font-size: 
+
+}
+
+.card {
+	background-color: #182859;
+	font-family: 'Nunito Sans', sans-serif;
+	color: #ffffff;
+
+}
+
+.form-group {
+	color: #182859;
+}
+	
+.btn {
+	background-color: #F2CF1D;
+	color: #0B0326;
+}
+
+

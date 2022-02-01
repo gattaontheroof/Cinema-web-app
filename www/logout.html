@@ -1,0 +1,81 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="includes/mystyle.css"/>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Nunito+Sans&display=swap" rel="stylesheet" />
+
+    <title>ECinema</title
+  </head>
+  <body style="background-color: #182859">
+	
+	<nav id="navbar-top" class="navbar navbar-expand-sm">  
+		<a class="navbar-brand" href="#">	
+			<img src="img/logo3.png" height="80" class="d-inline-block align-top-left" alt="">		
+		</a>	
+		
+		
+		<!-- Dropdown -->
+		<div class="nav-item dropdown ml-auto">
+			<a class="nav-link dropdown-toggle" href="user.php" id="navbardrop" data-toggle="dropdown"> 
+			<i class="bi bi-person-circle"></i>
+			User Account
+			</a>
+			<div class="dropdown-menu">
+			
+				<a class="dropdown-item" href="user.php">My Details</a>
+				<a class="dropdown-item" href="most_recent.php">My Ticket</a>
+				<a class="dropdown-item" href="booking_history.php">My Bookings</a>
+				<a class="dropdown-item" href="my_reviews.php">My Reviews</a>
+				<a class="dropdown-item" href="review.php">Post a Review</a>
+				<a class="dropdown-item" href="logout.php">Log Out</a>
+			</div>
+		</div>
+		
+	</nav>
+
+	
+	<nav id="navbar-bottom" class="navbar navbar-light">
+		<a class="navbar-brand" href="home.php">ECinema</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">	
+
+				<li class="nav-item">
+					<a class="nav-link" href="shuffle.php">Home</a>
+				</li>			
+				
+				<li class="nav-item">
+					<a class="nav-link" href="home.php">Now Showing</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="about.php">About Us</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="review.php">Reviews</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="snacks.php">Snacks and Drinks</a>
+				</li>
+				
+			</ul>
+			
+		</div>
+	</nav>
+  </body>
+</html>

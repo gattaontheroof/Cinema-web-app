@@ -1,0 +1,12 @@
+<div class="card bg-light mb-3">
+			<div class="row no-gutters">
+				<div-class="col-md-4">
+					<img width="256" class="img-fluid" alt="QR Code" src="img/qrcode.png">
+				</div>
+			<div-class=col-md-8>
+				<p>Booking Ref:'' #EC1000' . $row['booking_id'] . '</p> 
+				<p>Total Paid:  ' . $row['total'] . '</p>	
+				<p>Booking Date:  ' . $row['booking_date'] . '</p>
+		    </div>
+		   </div>
+		  </div>
